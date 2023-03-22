@@ -1,0 +1,11 @@
+header {
+    background-color: blue;
+    display: flex;
+
+}
+
+img {
+
+    width:100px;
+    height:auto;
+}
