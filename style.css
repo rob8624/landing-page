@@ -1,11 +1,23 @@
+.header-container {
+
+    background-color: #8594a8;
+    
+}
+
+.logo{
+    padding-left: 80px;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.menu-items {
+    padding-right: 80px;
+    font-size: 18px;
+}
+
 header {
     background-color: blue;
     display: flex;
-
-}
-
-img {
-
-    width:100px;
-    height:auto;
-}
+    justify-content: space-between;
+    align-items: center;
+    }
