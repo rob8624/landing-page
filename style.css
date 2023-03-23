@@ -68,7 +68,7 @@ header {
 
 
 button {
-    background-color: #3882f6; /* Green */
+    background-color: #3882f6; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -88,21 +88,37 @@ button {
     color: #1f2937;
 }
 
-.info-boxes {
+.info-images {
 
     display: flex;
     justify-content: center;
     gap:5%;
     margin-top: 5%;
+    flex-wrap: wrap;
 }
 
-.info-boxes div {
 
-    height: 50px;
-    width: 50px;
-    background-color: white;
+
+.info-images img {
+
+    
+    width: 250px;
+    height: 250px;
+    border: 5px solid #3882f6;
     border-radius: 50px;
-    border-color: #1f2937;
+   
 
 
+}
+
+.info-images div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    text-align: center;
+    
+
+    
 }
